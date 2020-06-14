@@ -1,0 +1,208 @@
+body {
+    width: 100%;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.box {
+    border: dodgerblue solid 1px;
+}
+
+.navBar {
+    position: fixed;
+    margin: 0px auto;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 99;
+    vertical-align: middle;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mainNav{
+    margin-bottom: 0;
+}
+
+.navIconDiv {
+    display: inline;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.navIcon a {
+    font-size: 21px !important;
+    padding-left: 0px!important;
+}
+.navIcon a:hover {
+    color: #666666!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.list-inline{
+    margin-top: 8px!important;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.navBar li {
+    display: inline;
+}
+
+.name {
+    font-size: 24px;
+    color: black;
+    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
+}
+
+.serif{
+    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
+}
+
+.navBar a {
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #888888;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 4px 15px
+}
+
+#divider {
+    width: 65px;
+    height: 1px;
+    background: #eeeeee;
+    margin: 20px auto;
+}
+
+#dividerV {
+    width: 1px;
+    height: 35px;
+    background-color: #888888;
+    vertical-align: middle;
+
+}
+
+.parallax {
+    /* background-image: url("/images/img_parallax.jpg"); */
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
+    color: #eeeeee !important;
+}
+
+video{
+    min-width: 100vw;
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: -2;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;    
+    background-color: black;
+}
+
+.parallax button {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px rgba(238, 238, 238, .3);
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee !important;
+    width: 180px;
+    transition-duration: .3s;
+    font-size: 12px;
+}
+
+.parallax button:hover {
+    background-color: rgba(238, 238, 238, .1);
+    border: solid 1px rgba(238, 238, 238, 1);
+    text-decoration: underline;
+    transition-duration: .3s;
+}
+
+.parallax button:focus {
+    outline: none;
+}
+
+
+.banner {
+    left: 5%;
+    top: 35%;
+    text-align: center;
+    position: absolute;
+}
+
+
+.padding-top {
+    margin-top: 20px;
+}
+
+
+.navBar a:hover {
+    color: #eeeeee;
+    background-color: #888888;
+    border-radius: 10px;
+    transition-duration: .3s;
+}
+
+ul .active a{
+    color: #eeeeee;
+    background-color: #888888;
+    border-radius: 10px;
+}
+
+#contact {
+    height: 100vh;
+    background-color: #888888;
+    color: white;
+}
+
+#work {
+    padding-top: 50px;
+    background-color: white;
+}
+
+#about {
+    padding-top: 50px;
+    background-color: white;
+}
+
+ul{
+    padding: 5px;
+}
+
+.footer-section{
+    padding-top: 50px;
+}
+
+.rights{
+    color: black;
+    background-color: #eeeeee;
+    padding-top: 20px;
+    height: 70px;
+    font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
+}
+.card-img-top:hover {
+    transform: scale(1.05);
+    transition: all ease 700ms;
+
+  }
+
+.card-back{
+    background-color: black;
+}
+
+.bottom-social a{
+    color: #eeeeee;
+}
