@@ -98,18 +98,19 @@ body {
     background-size: cover;
     font-family: "Cormorant Garamond", Georgia, 'Times New Roman', Times, serif;
     color: #eeeeee !important;
+    width: 100%;
 }
 
 video{
     min-width: 100vw;
     height: 110vh;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     position: fixed;
     z-index: -2;
     overflow: hidden;
-    align-items: center;
-    justify-content: center;    
+    margin: 0 auto;
+    display: block;  
     background-color: black;
 }
 
